@@ -1,0 +1,29 @@
+# Список деблоата для Google t950s_be311 (t950s_be311)
+# Android 13 (SDK 33), прошивка be311-13 TQ2A.20260716 16:07:36.E1
+# Собран tools/discover.py 2026-11-17 23:16 по факту установленного.
+# Применение: python3 tools/debloat.py lists/Google-t950s-be311-debloat.txt
+# Возврат:    python3 tools/restore.py
+#
+# Не отключено (проверено разведкой):
+#   com.android.bluetooth  — пульт/ввод
+#   com.android.connectivity.resources  — сеть
+#   com.android.externalstorage  — хранение
+#   com.android.inputmethod.latin  — пульт/ввод
+#   com.android.wifi.dialog  — сеть
+#   com.android.wifi.resources  — сеть
+#   com.jm.jmlauncher  — домашний экран
+#   com.master.accessibility  — курсор/управление с пульта
+#   com.smart.tv.launcher  — домашний экран
+
+cm.aptoidetv.pt  # магазин: сторонний магазин приложений
+com.android.adservices.api  # реклама: реклама Google: атрибуция и подбор
+com.android.ondevicepersonalization.services  # реклама: реклама Google: атрибуция и подбор
+com.android.printspooler  # предустановлено: фоновая синхронизация и печать
+com.google.android.onetimeinitializer  # мусор: доливка партнёрских приложений
+com.google.android.partnersetup  # реклама: реклама Google: атрибуция и подбор
+com.google.android.syncadapters.calendar  # предустановлено: фоновая синхронизация и печать
+com.google.android.syncadapters.contacts  # предустановлено: фоновая синхронизация и печать
+com.google.android.tvrecommendations  # реклама: рекламные ряды на главном экране
+com.master.tv.market  # магазин: сторонний магазин приложений
+com.softonic.hub  # магазин: сторонний магазин приложений
+ru.vk.store.tv  # магазин: сторонний магазин приложений

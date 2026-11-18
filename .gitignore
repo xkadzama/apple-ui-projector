@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+._*
+
+# Сборка лончера: пересобирается из исходников, в репозитории не нужна
+launcher/app/build/
+launcher/build/
+launcher/.gradle/
+launcher/.idea/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# local.properties содержит путь к Android SDK конкретной машины
+launcher/local.properties
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Бэкапы APK: сами файлы не публикуются, в apk-backup/ лежит только README
+# (объяснение — в apk-backup/README.md)
